@@ -1,0 +1,10 @@
+# Example OnionBalance Config File
+
+services:
+        # Path to a file with the private key of a frontend .onion address relative to this config file.
+        # Hidden service will be published using this key (Under a corresponding .onion address, i.e. public key.)
+    -   key: /var/lib/hs_data/hs_ed25519_secret_key
+        # A list of backend Tor instances by .onion addresses. Keys aren't required. Names will be used for logging.
+        instances:
+            -   address: YYY.onion
+                name: back1

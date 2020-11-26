@@ -10,6 +10,10 @@ Tor on a client will fetch all of the descriptors and choose one to request at r
 
 Onionbalance also allows a hidden service operator to keep the keys of his public .onion address separate from the actual production server.
 
+See [Onionbalance docs](https://onionbalance-v3.readthedocs.io/en/latest/) for more details.
+
+[Docker Hub repo](https://hub.docker.com/r/friendlyadmin/onionbalance)
+
 ## Usage
 
 To run the image you must provide an Onionbalance config file `onionbalance.config.yaml` (see `example_onionbalance.config.yaml` in this repo) and keys for a frontend (public) .onion address `hs_ed25519_secret_key` and `hs_ed25519_public_key`.

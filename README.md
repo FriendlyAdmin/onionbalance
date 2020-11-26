@@ -13,6 +13,7 @@ Onionbalance also allows a hidden service operator to keep the keys of his publi
 See [Onionbalance docs](https://onionbalance-v3.readthedocs.io/en/latest/) for more details.
 
 [Docker Hub repo](https://hub.docker.com/r/friendlyadmin/onionbalance)
+[GitHub repo](https://github.com/FriendlyAdmin/onionbalance)
 
 ## Usage
 

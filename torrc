@@ -1,0 +1,11 @@
+## Tor config file for a frontend instance for an Onionbalance setup.
+## See https://torproject.org/docs/tor-manual.html for more details.
+
+# Tor will accept connections using Tor Control Protocol on this port.
+ControlPort 127.0.0.1:9051
+
+# Controlling application will have to provide an auth cookie.
+CookieAuthentication 1
+
+# Non-default location of a cookie file.
+CookieAuthFile /var/lib/tor/control_auth_cookie

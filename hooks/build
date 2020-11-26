@@ -1,0 +1,9 @@
+#!/bin/bash
+
+docker build \
+    --build-arg PYTHON_VERSION=3.9 \
+    --build-arg TOR_VERSION=0.4.4.6 \
+    --build-arg ONIONBALANCE_VERSION=0.2.0 \
+    -f $DOCKERFILE_PATH \
+    -t $IMAGE_NAME \
+    .

@@ -3,7 +3,7 @@
 # it will also copy Tor from a sister image and configure Supervisor to run both apps.
 #
 # To sucessfully build an image from this Dockerfile the following build ARGs must be provided:
-# PYTHON_VERSION, TOR_VERION, ONIONBALANCE_VERSION
+# PYTHON_VERSION, TOR_VERSION, ONIONBALANCE_VERSION
 #
 
 # Python version to be used for all stages.
